@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(213, 233, 233);
+    padding: 10px;
+    align-items: center;
+}
+nav ul{
+    display: flex;
+    gap: 10px;
+    color: white;
+}
+nav ul li{
+    list-style: none;
+}
+.styled-link :link{
+    color: rgb(167, 202, 167);
+    text-decoration: none;
+}
+.styled-link{
+    color: red;
+    text-decoration: none;
+    transition: all 0.7s ease-in-out;
+}
+.styled-link:hover{
+    color: rgb(25, 0, 247);
+    transition: all 0.7s;
+    font-size: 18px;
+    padding: 5px;
+    border-radius: 20px;
+}
+.styled-link:visited{
+    color: rgb(31, 32, 29);
+}
+nav img{
+    width: 30px;
+}
